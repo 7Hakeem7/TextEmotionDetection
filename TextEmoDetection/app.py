@@ -6,7 +6,7 @@ import altair as alt
 import os
 import joblib
 # Get the absolute path to the model file
-model_path = r"C:\Users\HP\OneDrive\Desktop\Text-Emotion-Detection-main\Text-Emotion-Detection-main\Text Emotion Detection\model\text_emotion.pkl"
+model_path = r"C:/Users/HP/OneDrive/Desktop/Text-Emotion-Detection-main/Text-Emotion-Detection-main/Text Emotion Detection/model/text_emotion.pkl"
 # pipe_lr = joblib.load(open("text_emotion.pkl", "rb"))
 pipe_lr = joblib.load(model_path)
 
